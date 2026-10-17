@@ -68,6 +68,12 @@ Enable/disable existing rules through an interactive interface.
 /hookify:help
 ```
 
+## Agents and Skills
+
+**`conversation-analyzer`** (agent): Reads conversation transcripts to find behaviors worth preventing with hooks, such as repeated mistakes or signs of user frustration. It runs when `/hookify` is called without arguments, or when you ask Claude to look back over the conversation and suggest hooks. It uses the Read and Grep tools.
+
+**`writing-rules`** (skill): Guidance on hookify rule syntax and patterns. Rules are markdown files with YAML front matter, stored as `.claude/hookify.{rule-name}.local.md`. It is used when you ask to create, write or configure a hookify rule.
+
 ## Rule Configuration Format
 
 ### Simple Rule (Single Pattern)

@@ -193,6 +193,10 @@ Use this workflow for structured, high-quality plugin development from concept t
 **Use when:** Creating new skills for plugins or improving existing skill quality.
 
 
+## Agents
+
+**`skill-reviewer`** (agent): Reviews a newly created or modified skill for quality and best practices, including how well its description triggers. It runs proactively after a skill is created, or when you ask to review or improve a skill.
+
 ## Installation
 
 Install from claude-code-marketplace:

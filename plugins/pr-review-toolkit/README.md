@@ -169,6 +169,10 @@ For thorough PR review, ask for multiple aspects:
 
 This will trigger all relevant agents to analyze different aspects of your PR.
 
+### The /review-pr Command
+
+**`/review-pr [review-aspects]`**: Runs a comprehensive pull-request review using several specialized agents, each focused on one aspect of code quality. The optional argument selects which aspects to review.
+
 ### Proactive Review
 
 Claude may proactively use these agents based on context:

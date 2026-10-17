@@ -12,6 +12,10 @@ This skill updates your code and prompts to be compatible with Opus 4.5. It auto
 "Migrate my codebase to Opus 4.5"
 ```
 
+## Included Skill
+
+**`claude-opus-4-5-migration`** (skill): Migrates prompts and code from Claude Sonnet 4.0, Sonnet 4.5 or Opus 4.1 to Opus 4.5. It updates model strings and adjusts prompts for known behavioral differences in Opus 4.5. Use it when you want to move a codebase, prompts or API calls to Opus 4.5. It does not migrate Haiku 4.5.
+
 ## Learn More
 
 Refer to our [prompting guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices) for best practices on prompting Claude models.
